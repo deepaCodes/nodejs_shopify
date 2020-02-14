@@ -12,6 +12,7 @@ mongoose.connection.on('error', (err) => {
     console.error(` Database Error   → ${err}`);
 });
 
+
 function server() {
     /* You should require your models here so you don't have to initialise them all the time in
     different controlers*/
