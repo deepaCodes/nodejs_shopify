@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_shopify",
+  "version": "1.0.0",
+  "description": "NodeJS Shopify app",
+  "scripts": {
+    "debug": "DEBUG=nodejs_shopify:* npm start",
+    "start": "node ./server.js"
+  },
+  "keywords": [
+    "NodeJS Shopify app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.9.0",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "shopify-node-api": "^1.11.1",
+    "throng": "^4.0.0"
+  }
+}
